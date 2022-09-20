@@ -14,7 +14,7 @@ s1 = 100
 # cursor.execute("INSERT INTO pessoas VALUES('edvan',14, 'edvan.@gmail.com')")
 
 # cursor.execute("CREATE TABLE produtos (nome text, quantidade integer)")
-cursor.execute("INSERT INTO produtos VALUES('cimento' ,"+str(s1)+")")
+# cursor.execute("INSERT INTO produtos VALUES('cimento' ,"+str(s1)+")")
 # cursor.execute("CREATE TABLE teste (nome text, id integer, email text, senha text)")
 # cursor.execute("INSERT INTO teste VALUES(" + nome + "," + str(iD) + "," + email + "," + senha + ")")
 qtd = int(input('quantos você vai comprar'))
