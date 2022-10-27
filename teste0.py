@@ -28,18 +28,20 @@ numero = values['numero']
 A1 = values['A1']
 A2 = values['A2']
 A3 = values['A3']
-port = values['port']
+port = bool(values['port'])
 mat = values['mat']
 
-if port == 'true':
+if port:
     materia = 'portugues'
 else:
     materia = 'matematica'
 
-if A1 == True:
+if A1:
     serie = '1A'
-elif A2 == True:
+
+elif A2:
     serie = str('2A')
+
 else:
     serie = str('3A')
 
