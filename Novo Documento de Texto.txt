@@ -1,0 +1,1 @@
+SELECT DISTINCT * FROM professor, alunos WHERE alunos.idProf == 1 AND professor.id == 1
