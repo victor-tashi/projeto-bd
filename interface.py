@@ -24,7 +24,7 @@ singin = [
     [sg.Button('registra')]
 ]
 menu = [
-    [sg.Button('ver notas'), sg.Button('add notas')],
+    [sg.Button('ver notas'), sg.Button('ver sala')],
     [sg.Text('', size=(20, 0))]
 ]
 while plinio:
